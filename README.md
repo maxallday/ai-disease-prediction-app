@@ -3,10 +3,10 @@
 
 [ Live App](https://ai-disease-prediction-app.streamlit.app)
 #updated vesion
-https://healthguardai.streamlit.app/ 
+[ Live App](https://healthguardv2.streamlit.app/)
 ---------------------------------------------------------------------------------------------------------------------
 #updated v2
-[ Live App](https://healthguardv2.streamlit.app/)
+
 ✨ What's New in v2.0
 Feature	Description
 🧠 Offline Mode	Diagnoses and tips using locally stored ML models when no internet is available
