@@ -3,6 +3,8 @@
 # ✅ Core Streamlit functionality fo APPZ.PY
 streamlit==1.33.0
 streamlit-webrtc==0.45.0
+scikit-learn==1.4.0
+
 
 # 🎙️ Voice transcription
 openai-whisper
