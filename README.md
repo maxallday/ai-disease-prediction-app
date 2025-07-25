@@ -4,9 +4,60 @@
 [ Live App](https://ai-disease-prediction-app.streamlit.app)
 #updated vesion
 https://healthguardai.streamlit.app/ appz.py 
+---------------------------------------------------------------------------------------------------------------------
+#updated v2
+[ Live App](https://healthguardv2.streamlit.app/)
+✨ What's New in v2.0
+Feature	Description
+🧠 Offline Mode	Diagnoses and tips using locally stored ML models when no internet is available
+🎙️ Whisper Voice Input	Converts user speech to text using OpenAI's Whisper model for real-time queries
+💬 Chat Memory	Tracks conversation history between user and Dr. Guard
+📈 Risk Simulator	Estimates health risks based on age, vitals, and symptoms
+📤 Contact Form	Integrated feedback sender with mailto-based support
+📜 Sidebar Chat Viewer	Displays recent exchanges and offers clear history management
+🧠 TF-IDF Integration	Symptom vectorization for quick offline diagnosis matching
+🖤 Footer & Disclaimer	Professional footer with team credits and medical disclaimer
+🛠 Tech Stack
+Streamlit for UI and real-time deployment
 
-An AI-powered web application that predicts the risk of **Diabetes** or **Heart Disease** using user-provided health metrics.
+Whisper for audio transcription
 
+scikit-learn for TF-IDF and model training
+
+RapidAPI for online health diagnostics
+
+pickle for efficient offline storage
+
+dotenv for secure API key management
+
+streamlit-webrtc for voice capture and processing
+
+An AI-powered web application that predicts the risk of **Diabetes** or **Heart Disease** using user-provided health metrics.  
+
+
+nstallation & Run
+bash
+# Clone the repo
+git clone https://github.com/yourusername/healthguard-ultra
+
+# Activate your environment & install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+Make sure to add your RapidAPI key in a .env file:
+
+RAPID_API_KEY=your_actual_key_here
+🚀 Coming Soon (v2.1+)
+Future Feature	Summary
+🔁 Symptom History Export	Download diagnostic log as CSV
+🌍 Multilingual Support	Support for Swahili, Arabic, French, and Spanish
+📷 Visual Symptom Input	Upload skin rashes, X-rays, or photos for enhanced analysis
+🧠 Advanced Model Switching	Auto-switch between Naive Bayes, XGBoost, and Transformer-based models
+🧑🏾‍⚕️ Dr. Guard Persona Bot	A friendly assistant with personality, humor, and context-aware advice
+🔒 Consent & Privacy Controls	Settings for data saving, voice recording, and export preferences
+| 
+---------------------------------------------------------“Ensemble, tout est réalisable!!”------------------------------------------------------------------------||||
 ---
 
 ##  Features
