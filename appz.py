@@ -6,7 +6,11 @@ from datetime import datetime
 import tempfile
 
 # 🧠 Load Whisper model
-model = whisper.load_model("base")
+#model = whisper.load_model("base")
+if "model" not in st.session_state:
+    st.session_state.model = whisper.load_model("base")
+
+
 
 # ⚙️ App Config
 st.set_page_config(page_title="HealthGuard AI", page_icon="🩺", layout="centered")
@@ -95,7 +99,9 @@ if voice_active:
     if webrtc_ctx.audio_processor and st.button("📝 Transcribe & Send Voice"):
         audio = webrtc_ctx.audio_processor.audio
         if audio:
-            voice_text = transcribe_audio(audio)
+            #voice_text = transcribe_audio(audio)
+            voice_text = st.session_state.model.transcribe(audio)
+
             st.success(f"🗣️ You said: {voice_text}")
             st.session_state.chat.append(("You (voice)", voice_text))
             response = generate_response(voice_text)
