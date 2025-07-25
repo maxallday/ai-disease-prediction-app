@@ -2,6 +2,8 @@
 # Multi-Disease Risk Predictor
 
 [ Live App](https://ai-disease-prediction-app.streamlit.app)
+#updated vesion
+https://healthguardai.streamlit.app/ appz.py 
 
 An AI-powered web application that predicts the risk of **Diabetes** or **Heart Disease** using user-provided health metrics.
 
