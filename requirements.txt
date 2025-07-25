@@ -5,7 +5,8 @@ streamlit==1.33.0
 streamlit-webrtc==0.45.0
 
 # 🎙️ Voice transcription
-whisper==1.1.10
+openai-whisper
+
 ffmpeg-python==0.2.0
 torch>=1.13.0
 
