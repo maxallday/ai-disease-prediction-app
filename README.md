@@ -57,8 +57,7 @@ Future Feature	Summary
 🧑🏾‍⚕️ Dr. Guard Persona Bot	A friendly assistant with personality, humor, and context-aware advice
 🔒 Consent & Privacy Controls	Settings for data saving, voice recording, and export preferences
 | 
----------------------------------------------------------“Ensemble, tout est réalisable!!”------------------------------------------------------------------------||||
----
+---------------------------------------------------------“Ensemble, tout est réalisable!!”-----------------------------------------------------------------------
 
 ##  Features
 
