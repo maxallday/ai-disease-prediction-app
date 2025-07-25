@@ -3,7 +3,7 @@
 
 [ Live App](https://ai-disease-prediction-app.streamlit.app)
 #updated vesion
-https://healthguardai.streamlit.app/ appz.py 
+https://healthguardai.streamlit.app/ 
 ---------------------------------------------------------------------------------------------------------------------
 #updated v2
 [ Live App](https://healthguardv2.streamlit.app/)
